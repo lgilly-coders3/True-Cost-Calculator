@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>True Cost Calculator</title>
+</head>
+<body>
+  <h1>True Cost Calculator</h1>
+  <label for="income">Annual Income:</label>
+  <input type="number" id="income" name="income">
+  <label for="province">Province:</label>
+  <select id="province">
+    <option value="Ontario">Ontario</option>
+    </select>
+  <label for="purchasePrice">Purchase Price:</label>
+  <input type="number" id="purchasePrice" name="purchasePrice">
+  <button onclick="calculateTrueCost()">Calculate True Cost</button>
+  <p id="result"></p>
+  <script src="script.js"></script>
+</body>
+</html>
